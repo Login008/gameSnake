@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\\u0421\u0438\u0441 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\gameSnake\\",
+  "WorkspaceRootPath": "D:\\\u0421\u0438\u0441 \u043F\u0440\u043E\u0433\\gameSnake\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{455D30DB-7601-4821-BF21-58BB4606821B}|gameSnake.vcxproj|D:\\\u0421\u0438\u0441 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\gameSnake\\gameSnake.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{455D30DB-7601-4821-BF21-58BB4606821B}|gameSnake.vcxproj|solutionrelative:gameSnake.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{455D30DB-7601-4821-BF21-58BB4606821B}|gameSnake.vcxproj|D:\\\u0421\u0438\u0441 \u043F\u0440\u043E\u0433\\gameSnake\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{455D30DB-7601-4821-BF21-58BB4606821B}|gameSnake.vcxproj|solutionrelative:Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{455D30DB-7601-4821-BF21-58BB4606821B}|gameSnake.vcxproj|D:\\\u0421\u0438\u0441 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\gameSnake\\snake.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{455D30DB-7601-4821-BF21-58BB4606821B}|gameSnake.vcxproj|D:\\\u0421\u0438\u0441 \u043F\u0440\u043E\u0433\\gameSnake\\snake.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{455D30DB-7601-4821-BF21-58BB4606821B}|gameSnake.vcxproj|solutionrelative:snake.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{455D30DB-7601-4821-BF21-58BB4606821B}|gameSnake.vcxproj|D:\\\u0421\u0438\u0441 \u043F\u0440\u043E\u0433\\gameSnake\\gameSnake.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{455D30DB-7601-4821-BF21-58BB4606821B}|gameSnake.vcxproj|solutionrelative:gameSnake.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +30,40 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Game.h",
+              "DocumentMoniker": "D:\\\u0421\u0438\u0441 \u043F\u0440\u043E\u0433\\gameSnake\\Game.h",
+              "RelativeDocumentMoniker": "Game.h",
+              "ToolTip": "D:\\\u0421\u0438\u0441 \u043F\u0440\u043E\u0433\\gameSnake\\Game.h",
+              "RelativeToolTip": "Game.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-12T08:28:49.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "snake.h",
-              "DocumentMoniker": "D:\\\u0421\u0438\u0441 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\gameSnake\\snake.h",
+              "DocumentMoniker": "D:\\\u0421\u0438\u0441 \u043F\u0440\u043E\u0433\\gameSnake\\snake.h",
               "RelativeDocumentMoniker": "snake.h",
-              "ToolTip": "D:\\\u0421\u0438\u0441 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\gameSnake\\snake.h",
+              "ToolTip": "D:\\\u0421\u0438\u0441 \u043F\u0440\u043E\u0433\\gameSnake\\snake.h",
               "RelativeToolTip": "snake.h",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAUwFoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-11T15:46:34.338Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "gameSnake.cpp",
-              "DocumentMoniker": "D:\\\u0421\u0438\u0441 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\gameSnake\\gameSnake.cpp",
+              "DocumentMoniker": "D:\\\u0421\u0438\u0441 \u043F\u0440\u043E\u0433\\gameSnake\\gameSnake.cpp",
               "RelativeDocumentMoniker": "gameSnake.cpp",
-              "ToolTip": "D:\\\u0421\u0438\u0441 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\gameSnake\\gameSnake.cpp",
+              "ToolTip": "D:\\\u0421\u0438\u0441 \u043F\u0440\u043E\u0433\\gameSnake\\gameSnake.cpp",
               "RelativeToolTip": "gameSnake.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-11T15:44:57.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T15:44:57.646Z"
             }
           ]
         }
