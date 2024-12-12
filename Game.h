@@ -10,8 +10,8 @@ class Game
 {
 private:
     // размеры игрового поля
-    const int width = 20;
-    const int height = 20;
+    const int width = 10;
+    const int height = 10;
 
     // для управления игрой
     snake Snake; //сама змейка
@@ -39,6 +39,7 @@ public:
                 Sleep(100);
             }
         }
+        Sleep(500);
     }
 private:
     // для инициализации игры
@@ -237,6 +238,12 @@ private:
             score += 10;
             fruitX = rand() % width;
             fruitY = rand() % height;
+
+            while (Snake.is_snake_part(fruitX, fruitY)) //проверка для того, чтобы фрукты не спавнились на змейке
+            {
+                fruitX = rand() % width;
+                fruitY = rand() % height;
+            }
             Snake.push_back(Snake.get_cordX_of_tail(), Snake.get_cordY_of_tail());
         }
     };
